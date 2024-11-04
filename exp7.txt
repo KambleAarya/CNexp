@@ -1,0 +1,6 @@
+sudo ifconfig
+route
+sudo route add default gw 10.0.0.5 enp2s0                                               route
+ip addr show dev enp2s0
+sudo route del -net 172.16.20.0 netmask 255.255.254.0 gw 0.0.0.0         route
+ping 172.16.20.135

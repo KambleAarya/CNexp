@@ -1,0 +1,5 @@
+sudo apt install nmap
+nmap <url>
+nmap -v <url>
+nmap scanme.nmap.org
+nmap <url1/ipadd1> <url2/ipadd2>

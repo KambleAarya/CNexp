@@ -1,0 +1,5 @@
+ifconfig
+telnet 172.16.20.180
+cd desktop
+cat>fruit.txt <content> ctrl c
+ls

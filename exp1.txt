@@ -1,0 +1,8 @@
+ifconfig
+nslookup <url>
+ping <url>
+traceroute <url>
+netstat <url>
+arp -v
+ip addr show
+dig <url>
